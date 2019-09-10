@@ -1,13 +1,15 @@
-(function(){ 
- 
-let whatDoYouThink =prompt("heads ir tails")
+  /* Create a script that has a random chance of printing out heads or tails. */
+    
+    //document.write("hello from coin-flip.js");
 
-let coinFlipper  = document.querySelector("#coinFlipper")
-
-coinFlipper.addEventListener("click", function(){
-    if(Math.random() >.5){
-        console.log("heads");
-    }else{
-        console.log("tails")
-    }
-})
+    let whatDoYouThink =prompt("heads or tails")
+    let coinFlipperButton  = document.querySelector("#coinFlipper")
+    
+    coinFlipperButton.addEventListener("click", function(){
+        if(Math.random() >.5){
+            console.log("heads");
+        }else{
+            console.log("tails")
+        }
+    
+})();
