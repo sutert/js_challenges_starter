@@ -10,6 +10,5 @@
             console.log("heads");
         }else{
             console.log("tails")
-        }
-    
+        }  
 })();
