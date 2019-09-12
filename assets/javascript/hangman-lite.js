@@ -7,6 +7,12 @@
     actual letter and the number of times). If the letter doesn't 
     exist, print out "Nope, that letter doesn't exist in my word." */
     
-    document.write("hello from hangman-lite.js");
+   let word = "Oceaniana";
+   let letter = "s"
 
+   let result = word.indexOf(letter)
+    if (result == -1){console.log("Not Present")} 
+    else {console.log("Present")}
+
+   
 })();
