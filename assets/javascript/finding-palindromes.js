@@ -5,7 +5,7 @@
     "true" if word is a palindrome, or "false" if its not. */
 
 
-    let word = "ana";
+    let word = "cramer";
 
     let reverseWord = word.split("").reverse().join("")
 
