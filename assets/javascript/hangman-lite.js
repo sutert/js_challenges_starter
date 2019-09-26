@@ -8,13 +8,12 @@
             count++;
         }
     }
-    
-    let x =letter
-    let y = console.log(count)
 
-    if(console.log(count) >= 1 ){console.log(Yeah, the letter x 
-    exists y times in my word)}
-    else {console.log(Nope, that letter does not exist in my word)}
-}
-   
+    let x =letter
+    let y =count
+
+    if(count >= 1 ) {console.log ("Yeah, the letter " + x + " exists " + y +" times in my word ")}
+
+    else {console.log ("Nope, that letter does not exist in my word")}
+
 })();
